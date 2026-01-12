@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: yotam-portfolio
+    env: node
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: npm install && npm run build
+    startCommand: npm run serve
+    envVars:
+      - key: NODE_VERSION
+        value: 18
