@@ -125,7 +125,7 @@ const StyledProject = styled.li`
 
   .project-title {
     color: var(--lightest-slate);
-    font-size: clamp(24px, 5vw, 28px);
+    font-size: clamp(22px, 4vw, 26px);
 
     @media (min-width: 768px) {
       margin: 0 0 20px;
@@ -155,11 +155,11 @@ const StyledProject = styled.li`
     ${({ theme }) => theme.mixins.boxShadow};
     position: relative;
     z-index: 2;
-    padding: 25px;
+    padding: 20px;
     border-radius: var(--border-radius);
     background-color: var(--light-navy);
     color: var(--light-slate);
-    font-size: var(--fz-lg);
+    font-size: var(--fz-md);
 
     @media (max-width: 768px) {
       padding: 20px 0;

@@ -135,22 +135,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yotam and I enjoy creating things that live on the internet. 
-              I'm a Computer Science student at Reichman University, with strong foundations in 
-              software development, algorithms, and data-driven problem solving.
+              Hello! My name is Yotam. I'm a Computer Science student at Reichman University, with
+              strong foundations in software development, algorithms, and data-driven problem
+              solving.
             </p>
 
             <p>
-              I'm experienced in building projects that combine technical coding expertise with 
-              advanced AI prompting techniques. My focus is on full-stack development, where I 
-              enjoy both the creative aspects of front-end design and the logical challenges of 
-              back-end engineering.
+              I have experience building projects that combine solid engineering practices with
+              advanced AI prompting techniques, with a particular focus on full-stack development.
+              My work spans both front-end design and back-end engineering, where I value clean
+              architecture, scalability, and practical problem solving.
             </p>
 
             <p>
-              I balance my academic studies with ongoing reserve duty as a sergeant, which has 
-              taught me the importance of teamwork, commitment, and performing under pressure. 
-              These experiences have shaped my approach to software development and problem-solving.
+              Alongside my studies, I serve in the reserves as a sergeant, an experience that has
+              reinforced the importance of teamwork, responsibility, and performing effectively
+              under pressure. These principles strongly influence my approach to software
+              development and collaboration.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

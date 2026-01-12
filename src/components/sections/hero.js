@@ -61,27 +61,23 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Yotam Markman.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const threeItem = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
-        I'm a Computer Science student at Reichman University specializing in building 
-        exceptional digital experiences. I combine technical coding expertise with advanced 
-        AI techniques to create innovative solutions, while balancing my studies with 
-        reserve duty as a sergeant.
+        I'm a Computer Science student at Reichman University specializing in building exceptional
+        digital experiences. I combine technical coding expertise with advanced AI techniques to
+        create innovative solutions, while balancing my studies with reserve duty as a sergeant.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href={`mailto:yotam.markman@gmail.com`}
-      rel="noreferrer">
+    <a className="email-link" href={`mailto:yotam.markman@gmail.com`} rel="noreferrer">
       Get In Touch
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, threeItem, four, five];
 
   return (
     <StyledHeroSection>

@@ -17,17 +17,18 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: 'Yotam Markman',
-        short_name: 'Yotam Markman',
-        start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
-        display: 'minimal-ui',
-      },
-    },
+    // Commented out - requires icon
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: 'Yotam Markman',
+    //     short_name: 'Yotam Markman',
+    //     start_url: '/',
+    //     background_color: config.colors.darkNavy,
+    //     theme_color: config.colors.navy,
+    //     display: 'minimal-ui',
+    //   },
+    // },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
