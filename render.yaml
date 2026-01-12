@@ -5,8 +5,9 @@ services:
     region: oregon
     plan: free
     branch: main
-    buildCommand: cd v4 && npm install --legacy-peer-deps && npm run build
-    staticPublishPath: v4/public
+    rootDir: v4
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    staticPublishPath: ./public
     envVars:
       - key: NODE_VERSION
         value: 20.18.1
