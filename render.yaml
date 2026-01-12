@@ -1,12 +1,12 @@
 services:
   - type: web
     name: yotam-portfolio
-    env: node
+    env: static
     region: oregon
     plan: free
     branch: main
-    buildCommand: npm install && npm run build
-    startCommand: npm run serve
+    buildCommand: cd v4 && npm install --legacy-peer-deps && npm run build
+    staticPublishPath: v4/public
     envVars:
       - key: NODE_VERSION
-        value: 18
+        value: 18.20.5
