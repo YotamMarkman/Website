@@ -5,6 +5,7 @@ import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import { GlobalStyle, theme } from '@styles';
 import { ThemeProvider as CustomThemeProvider } from '@contexts/ThemeContext';
 import ThemeSwitcher from './themeSwitcher';
+import ThemeWelcomePopup from './themeWelcomePopup';
 
 const StyledContent = styled.div`
   display: flex;
@@ -74,6 +75,7 @@ const Layout = ({ children, location }) => {
                   <Footer />
                 </div>
                 <ThemeSwitcher />
+                <ThemeWelcomePopup />
               </StyledContent>
             )}
           </ThemeProvider>
