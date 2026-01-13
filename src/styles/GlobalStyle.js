@@ -14,10 +14,16 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
 
+  /* Smooth theme transitions */
+  :root {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
   *,
   *:before,
   *:after {
     box-sizing: inherit;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   }
 
   ::selection {
