@@ -6,6 +6,7 @@ export const themes = {
     colors: {
       darkNavy: '#020c1b',
       navy: '#0a192f',
+      navyTransparent: 'rgba(10, 25, 47, 0.85)',
       lightNavy: '#112240',
       lightestNavy: '#233554',
       navyShadow: 'rgba(2, 12, 27, 0.7)',
@@ -23,6 +24,7 @@ export const themes = {
     colors: {
       darkNavy: '#1a0b2e',
       navy: '#2d1b4e',
+      navyTransparent: 'rgba(45, 27, 78, 0.85)',
       lightNavy: '#3e2a5f',
       lightestNavy: '#4f3a70',
       navyShadow: 'rgba(26, 11, 46, 0.7)',
@@ -40,6 +42,7 @@ export const themes = {
     colors: {
       darkNavy: '#0f0f0f',
       navy: '#1a1a1a',
+      navyTransparent: 'rgba(26, 26, 26, 0.85)',
       lightNavy: '#2d2d2d',
       lightestNavy: '#404040',
       navyShadow: 'rgba(15, 15, 15, 0.7)',
@@ -57,6 +60,7 @@ export const themes = {
     colors: {
       darkNavy: '#0a2f23',
       navy: '#133d2f',
+      navyTransparent: 'rgba(19, 61, 47, 0.85)',
       lightNavy: '#1e5245',
       lightestNavy: '#2a6856',
       navyShadow: 'rgba(10, 47, 35, 0.7)',
@@ -74,6 +78,7 @@ export const themes = {
     colors: {
       darkNavy: '#0d1117',
       navy: '#161b22',
+      navyTransparent: 'rgba(22, 27, 34, 0.85)',
       lightNavy: '#21262d',
       lightestNavy: '#30363d',
       navyShadow: 'rgba(13, 17, 23, 0.7)',
@@ -91,6 +96,7 @@ export const themes = {
     colors: {
       darkNavy: '#1a1311',
       navy: '#2c1e1a',
+      navyTransparent: 'rgba(44, 30, 26, 0.85)',
       lightNavy: '#3f2e28',
       lightestNavy: '#523d36',
       navyShadow: 'rgba(26, 19, 17, 0.7)',

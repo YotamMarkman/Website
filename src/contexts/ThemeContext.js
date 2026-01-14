@@ -30,6 +30,7 @@ export const ThemeProvider = ({ children }) => {
 
     root.style.setProperty('--dark-navy', themeColors.darkNavy);
     root.style.setProperty('--navy', themeColors.navy);
+    root.style.setProperty('--navy-transparent', themeColors.navyTransparent);
     root.style.setProperty('--light-navy', themeColors.lightNavy);
     root.style.setProperty('--lightest-navy', themeColors.lightestNavy);
     root.style.setProperty('--navy-shadow', themeColors.navyShadow);
